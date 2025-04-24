@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت فرهاد</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* رنگ آبی کره‌ای زیمن */
+        :root {
+            --primary-color: #5c9ead;
+            --white: #ffffff;
+            --gray: #f0f0f0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            padding: 20px;
+            text-align: center;
+            color: var(--white);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        nav {
+            background-color: var(--primary-color);
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 50px 10%;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .portfolio-item {
+            background-color: var(--white);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            text-align: center;
+            padding: 10px;
+            color: var(--white);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .cta-button {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 10px 20px;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .cta-button:hover {
+            background-color: #4a7a7d;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>فرهاد</h1>
+    <p>سایت نمونه‌کارهای طراحی مدرن</p>
+</header>
+
+<nav>
+    <a href="#home">خانه</a>
+    <a href="#portfolio">نمونه‌کارها</a>
+    <a href="#services">خدمات</a>
+    <a href="#contact">تماس</a>
+</nav>
+
+<section id="home">
+    <h2>خوش آمدید به سایت فرهاد</h2>
+    <p>ما در این سایت به ارائه نمونه‌کارهای خود و خدمات طراحی مدرن می‌پردازیم.</p>
+    <button class="cta-button">تماس با ما</button>
+</section>
+
+<section id="portfolio">
+    <h2>نمونه‌کارها</h2>
+    <div class="portfolio-grid">
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300" alt="پروژه 1">
+            <h3>پروژه 1</h3>
+            <p>توضیحات مختصر درباره پروژه 1</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300" alt="پروژه 2">
+            <h3>پروژه 2</h3>
+            <p>توضیحات مختصر درباره پروژه 2</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300" alt="پروژه 3">
+            <h3>پروژه 3</h3>
+            <p>
